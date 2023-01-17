@@ -1,3 +1,10 @@
+body {
+    background-image: url("gray-backround-color.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #headline {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -9,6 +16,7 @@
 
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
+
 
 #line_whats_gorilla {
     justify-content: center;
@@ -40,12 +48,35 @@ h4 {
 #content {
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 
+    background-color: #6ad4c2;
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    z-index: 2;
+
+    border-radius: 20px;
 }
+
 h2 {
     font-size: 50px;
     font-weight: bold;
     color: #000;
     text-align: left;
-    padding: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#about_head {
+    background-color: #01987f;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+p {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    padding: 10px;
     margin: 0px;
 }
